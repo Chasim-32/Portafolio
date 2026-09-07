@@ -30,10 +30,3 @@ themeButton.addEventListener("click", function () {
 
 });
 
-
-// ==============================
-// SESSION STORAGE
-// ==============================
-
-sessionStorage.setItem("visit", "true");
-

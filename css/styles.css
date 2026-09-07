@@ -10965,3 +10965,101 @@ body.dark-mode .profile-image {
     }
 
 }
+
+/* ========================================
+   PANTALLA DE ACCESO
+======================================== */
+
+.login-screen {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+}
+
+.login-card {
+    width: 100%;
+    max-width: 450px;
+    padding: 40px;
+    background-color: white;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 10px 35px rgba(0, 0, 0, 0.15);
+}
+
+.login-card h1 {
+    margin-bottom: 10px;
+}
+
+.login-card h4 {
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+.login-card p {
+    color: #6c757d;
+}
+
+.login-divider {
+    display: flex;
+    align-items: center;
+    margin: 25px 0;
+}
+
+.login-divider::before,
+.login-divider::after {
+    content: "";
+    flex: 1;
+    border-top: 1px solid #dee2e6;
+}
+
+.login-divider span {
+    padding: 0 15px;
+    color: #6c757d;
+}
+
+.guest-info {
+    display: block;
+    margin-top: 10px;
+    color: #6c757d;
+}
+
+
+/* ========================================
+   LOGIN EN MODO OSCURO
+======================================== */
+
+body.dark-mode .login-screen {
+    background: linear-gradient(135deg, #121212, #1e1e1e);
+}
+
+body.dark-mode .login-card {
+    background-color: #252525;
+    color: #f1f1f1;
+}
+
+body.dark-mode .login-card p {
+    color: #bbbbbb;
+}
+
+body.dark-mode .login-divider::before,
+body.dark-mode .login-divider::after {
+    border-color: #444;
+}
+
+body.dark-mode .login-divider span,
+body.dark-mode .guest-info {
+    color: #bbbbbb;
+}
+
+body.dark-mode .form-control {
+    background-color: #333;
+    color: white;
+    border-color: #555;
+}
+
+body.dark-mode .form-control::placeholder {
+    color: #aaa;
+}
