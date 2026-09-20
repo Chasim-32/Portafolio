@@ -11063,3 +11063,29 @@ body.dark-mode .form-control {
 body.dark-mode .form-control::placeholder {
     color: #aaa;
 }
+
+/* =========================
+   PROYECTO BIBLIOTECA
+   ========================= */
+
+.biblioteca-card {
+    max-width: 700px;
+    border-radius: 15px;
+}
+
+.biblioteca-card h3 {
+    font-weight: 600;
+}
+
+.biblioteca-card textarea {
+    resize: vertical;
+}
+
+.biblioteca-card code {
+    display: block;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #f1f1f1;
+    border-radius: 8px;
+    word-break: break-word;
+}
